@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body{
+    background: #ffffff;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    text-align: right;
+    overflow: hidden;
+}
+
+
+#header{
+    display: flex;
+    height: 5vh;
+    text-align: left;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin-left: 10vw;
+    padding: 20px 20px 20px 0;
+    /* border: 1px solid blue; */
+}
+
+#header div{
+    color: white;
+    margin-right: 10px;
+    font-size: medium;
+    font-family: 'Lora', serif;
+}
+
+h1{
+    font-weight: normal;
+    font-size: 4vw;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    text-align: left;
+    margin: 5vh 0 0 10vw;
+
+}
+
+#p{
+    display: flex;
+    margin: 0 0 0 10vw;
+    align-items: center;
+    width: 70%;
+    text-align: justify;
+    /* border: 1px solid blue; */
+}
+
+#p p{
+    font-size: small;
+    color: white;
+    max-width: 50%;
+    font-family: 'Lora', serif;
+}
+
+.ab{
+    color: white;
+    font-family: 'Lora', serif;
+    border: 1px solid white;
+    font-size: medium;
+    width: max-content;
+    height: max-content;
+    background-color: transparent;
+    transition: 0.2s;
+    padding: 10px;
+    vertical-align: middle;
+    text-align: center;
+
+}
+
+a{text-decoration: none;}
+
+.ab:hover{
+    transition: 0.2s;
+    background-color: #ffffff;
+    color: #b60000;
+    font-family: 'Lora', serif;
+    border: 1px solid white;
+    font-size: medium;
+    width: max-content;
+    height: max-content;
+    vertical-align: middle;
+    padding: 15px;
+    text-align: center;
+}
+
+
+#button{
+    margin-left: 10vw;
+    display: flex;
+    gap: 2vw;
+    justify-content: baseline;
+}
