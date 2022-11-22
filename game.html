@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <title>PAMERAN SENI</title>
+    <link rel="stylesheet" href="src/game-style.css">
+    <script>
+        function zoom(){
+            document.body.style.zoom= 0.5;
+        }
+        document.addEventListener('keydown', function(ev) {
+            if(ev.keyCode === 77){
+                document.getElementById("map").style.display = "block";
+            } 
+        });
+        document.addEventListener('keyup', function(ev) {
+            if(ev.keyCode === 77){
+                document.getElementById("map").style.display = "none";
+            } 
+        });
+    </script>
+</head>
+<body>
+    <div id="map">
+        <div style="background-color: white; height: 100vh; width: 100vw;z-index: 100;text-align: center;"><img src="img/image (7).png" alt="" style="z-index: 100;width: 50vw;height: 95vh;"></div>
+
+    </div>
+    <div style="background-color: #b60000;height: 75vh;width: 210vw; z-index: -6;position:absolute;top: -25vh;transform: rotate(5deg);left: -5vw;"></div>
+    <div class="if">
+        <!-- <div id="box">
+            <a class="button" href="#popup1"><div class="ab">&#63; Cara Memainkan</div></a>
+        </div>
+        
+        <div id="popup1" class="overlay">
+            <div class="popup">
+                <a class="close" href="#">&times;</a>
+                <div class="content">
+                    <img src="img/Component 2 (1).png" alt="">
+                </div>
+            </div>
+        </div> -->
+        <iframe src="game/scene-transitions.html" name="targetframe" allowTransparency="true" scrolling="no" frameborder="0" width="884px" height="600px">
+        </iframe>
+    </div>
+    
+
+</body>
+</html>
+
+</body>
+</html>

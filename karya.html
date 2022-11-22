@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KARYA KAMI</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+        html{overflow: hidden;}
+        body{
+            margin: 0;
+            background-color: #b60000;
+        }
+        img{
+            width: 100vw;
+            text-align: right;
+        }
+        h1{
+            text-align: right;
+            font-family: 'Playfair Display', serif;
+            font-weight: 300;
+            font-size: 4vw;
+            margin-right: 30px;
+            color: #b60000;
+        }
+
+                
+        .photobanner {
+            margin-top: -3vh;
+            height: 356px;
+            width: 5420px;
+
+        }
+
+        img {
+            height: 356px;
+            width: 342px;
+            display: inline-block;
+        }
+
+
+        /*keyframe animations*/
+        .first {
+                    animation: bannermove 24.5s linear infinite;
+        }
+        
+        @keyframes bannermove {
+        0% {
+            margin-left: 0px;
+        }
+        100% {
+            margin-left: -2771px;
+        }
+        
+        }
+        
+        #one{
+            text-align: center;
+            font-family: 'Playfair Display', serif;
+            font-weight: 300;
+            font-size: 2.5vw;
+            color: #ffffff;
+            margin-top: 8vh;
+        }
+    </style>
+
+    <script>
+        function onewith(){
+            document.getElementById('one').innerHTML="Bandung Lautan Api";
+        }
+        function onewithout(){
+            document.getElementById('one').innerHTML="";
+        }
+        function twowith(){
+            document.getElementById('one').innerHTML="Abdul Haris Nasution";
+        }
+        function twowithout(){
+            document.getElementById('one').innerHTML="";
+        }
+        function threewith(){
+            document.getElementById('one').innerHTML="Kolonel Mayjen Soengkono";
+        }
+        function threewithout(){
+            document.getElementById('one').innerHTML="";
+        }
+        function fourwith(){
+            document.getElementById('one').innerHTML="Dewi Sartika";
+        }
+        function fourwithout(){
+            document.getElementById('one').innerHTML="";
+        }
+        function fivewith(){
+            document.getElementById('one').innerHTML="Pertempuran Surabaya";
+        }
+        function fivewithout(){
+            document.getElementById('one').innerHTML="";
+        }
+        function sixwith(){
+            document.getElementById('one').innerHTML="Maskoen Soemadiredja";
+        }
+        function sixwithout(){
+            document.getElementById('one').innerHTML="";
+        }
+        function sevenwith(){
+            document.getElementById('one').innerHTML="Kolonel Mayjen Soengkono";
+        }
+        function sevenwithout(){
+            document.getElementById('one').innerHTML="";
+        }
+        function eightwith(){
+            document.getElementById('one').innerHTML="Mohammad Toha";
+        }
+        function eightwithout(){
+            document.getElementById('one').innerHTML="";
+        }
+    </script>
+</head>
+<body>
+    <img src="src/TRANSPARENT/DESIGNSYNDROME-PAPERCUT-TEXTURE---TRANSPARENT44.png" alt="" style="width:100vw;height:300vh;z-index:10;position:absolute;opacity: 50%;pointer-events:none;margin-top: -10vh;">
+    <div style="background-color: #ffffff;height: 75vh;width: 210vw; z-index: -6;position:absolute;top: -25vh;transform: rotate(5deg);left: -5vw;"></div>
+    <h1>KARYA KAMI</h1>
+    
+    <div class="photobanner"> 
+    	<img class="first" src="karya/jalan.png" alt="" onmouseover="onewith()" onmouseout="onewithout()"/>
+    	<img src="karya/nasution.png" alt="" onmouseover="twowith()" onmouseout="twowithout()">
+    	<img src="karya/z.png" alt="" onmouseover="threewith()" onmouseout="threewithout()"/>
+    	<img src="karya/sartika.png" alt="" onmouseover="fourwith()" onmouseout="fourwithout()"/>
+    	<img src="karya/march.png" alt="" onmouseover="fivewith()" onmouseout="fivewithout()"/>
+    	<img src="karya/bhb.png" alt="" onmouseover="sixwith()" onmouseout="sixwithout()"/>
+    	<img src="karya/idk.png" alt="" onmouseover="sevenwith()" onmouseout="sevenwithout()"/>
+    	<img src="karya/toha.png" alt="" onmouseover="eightwith()" onmouseout="eightwithout()"/>
+        <img src="karya/jalan.png" alt="" onmouseover="onewith()" onmouseout="onewithout()"/>
+        <img src="karya/nasution.png" alt="" onmouseover="twowith()" onmouseout="twowithout()"/>
+    	<img src="karya/z.png" alt="" onmouseover="threewith()" onmouseout="threewithout()"/>
+    	<img src="karya/sartika.png" alt="" onmouseover="fourwith()" onmouseout="fourwithout()"/>
+    </div>
+    <div id="one"></div>
+</div>
+</body>
+</html>
